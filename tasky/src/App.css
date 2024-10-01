@@ -7,7 +7,7 @@
   text-align: center;
   display: inline-block;
   vertical-align: top;
- 
+  font-family: system-ui;
   background: #5bb4c4;
   color: white;
   width: 180px;
@@ -15,6 +15,21 @@
   margin: 10px;
   padding: 10px;
   position: relative;
+}
+button {
+  border: none;
+  border-radius: 3px;
+  font-style: italic;
+  font-size: 0.8em;
+  margin: 4px 6px;
+  width: 50px;
+  height: 25px;
+}
+.doneButton {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: green;
 }
 .description{
   font-style: italic ;
