@@ -16,18 +16,23 @@ function App() {
     setTaskState({tasks});
     console.log(`${taskIndex} ${tasks[taskIndex].done}`);
   }
-
+  const deleteHandler = (taskIndex) => {
+    const tasks = [...taskState.tasks];
+    tasks.splice(taskIndex, 1);
+    setTaskState({tasks});
+  } 
   return (
     <div className="container">
       <h1>Tasky</h1>
       {taskState.tasks.map((task,index) => (              
     <Task 
-      markDone={() => doneHandler(index)}
       title={task.title}
       description={task.description}
       deadline={task.deadline}
       key = {task.id}
       done={task.done}
+      markDone={() => doneHandler(index)}
+      deleteTask = {() => deleteHandler(index)}
     />
   ))}
     </div>
