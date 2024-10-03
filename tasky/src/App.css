@@ -44,15 +44,6 @@ button {
   font-weight: bold;
   font-size: 1.2em; 
 }
-h1 {
-  text-align: center;
-  background-color: grey;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-}
 
 input[type=text], input[type=date] {
   width: 60%;
@@ -84,6 +75,16 @@ form {
   width: 50%;
   margin: auto;
 }
+h1 {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+
 div {
   padding: 20px;
 }
