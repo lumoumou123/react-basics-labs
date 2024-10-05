@@ -44,7 +44,9 @@ button {
   font-weight: bold;
   font-size: 1.2em; 
 }
-
+.profit {
+  font-style: italic ;
+}
 input[type=text], input[type=date] {
   width: 60%;
   padding: 12px 20px;
